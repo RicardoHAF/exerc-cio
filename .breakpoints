@@ -1,12 +1,4 @@
-{
-  "files": {
-    "main.py": [
-      {
-        "id": "593f412b-0ebd-40e5-8e70-73dc0ac96da1",
-        "line": 1,
-        "version": 920,
-        "index": 0
-      }
-    ]
-  }
-}
+nome = input('Nome: ')
+idade = int(input('Idade: '))
+peso = str(input('Peso/Kg: '))
+print("Ola,{}, Seja bem vindo, voce tem {} anos e pesa {}kg".format(nome,idade,peso))
