@@ -1,7 +1,4 @@
 nome = input('Nome: ')
 idade = int(input('Idade: '))
 peso = str(input('Peso/Kg: '))
-print('')
-print('Seja bem vindo {}'.format(nome))
-print('Você tem {} anos'.format(idade))
-print('E pesa {}kg'.format(peso))
+print("Ola,{}, Seja bem vindo, voce tem {} anos e pesa {}kg".format(nome,idade,peso))
